@@ -8,7 +8,9 @@ The dataset used is provided by robots.ox.ac.uk ( https://www.robots.ox.ac.uk/~v
 The application consists of three scripts:
 
 Support Functions: This script is designed for data set manipulation and contains functions necessary to prepare the input and output data sets.
+
 Images Colorization: This script loads the input data sets, along with various versions of the output data sets prepared using "Support functions". The pre-trained model is loaded in this script. The script encompasses network training configuration options, as well as the training process.
+
 Model testing: This script is dedicated to testing the trained models and calculating the quality indicators.
 
 Results
