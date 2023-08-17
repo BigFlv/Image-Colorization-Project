@@ -3,7 +3,6 @@ The purpose of the project is to apply transformations to certain images, changi
 
 I started from an existing neural network provided by MathWorks (https://www.mathworks.com/help/images/learning-to-see-in-the-dark.html). I modified the architecture to allow training the network with pairs of images composed of grayscale images and color images on different variants such as RGB, Lab, and HSV. Lab and HSV have the advantage of separating chromaticity from brightness, unlike RGB.
 
-Data set
 The dataset used is provided by robots.ox.ac.uk ( https://www.robots.ox.ac.uk/~vgg/data/flowers/17/ ). I divided it into 1252 training images, 51 validation images, and 64 test images.
 
 Results
