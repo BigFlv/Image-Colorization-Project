@@ -5,6 +5,12 @@ I started from an existing neural network provided by MathWorks (https://www.mat
 
 The dataset used is provided by robots.ox.ac.uk ( https://www.robots.ox.ac.uk/~vgg/data/flowers/17/ ). I divided it into 1252 training images, 51 validation images, and 64 test images.
 
+The application consists of three scripts:
+
+Support Functions: This script is designed for data set manipulation and contains functions necessary to prepare the input and output data sets.
+Images Colorization: This script loads the input data sets, along with various versions of the output data sets prepared using "Support functions". The pre-trained model is loaded in this script. The script encompasses network training configuration options, as well as the training process.
+Model testing: This script is dedicated to testing the trained models and calculating the quality indicators.
+
 Results
 1. The results obtained when working simultaneously on all channels
 ![image](https://github.com/BigFlv/Image-Colorization-Project/assets/64215652/ee19e5ce-fdc3-4a74-9f3b-d1d02eb1abba)
